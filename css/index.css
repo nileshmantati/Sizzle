@@ -1,0 +1,426 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.bg-color-dark-gray {
+    background-color: #1b1b1b;
+}
+
+.bg-color-light-gray {
+    background-color: #262525;
+}
+
+
+/* Topbar Start */
+
+.topbar_section {
+    background-color: #ad1a19;
+    font-family: "Onest", sans-serif;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    flex-wrap: wrap;
+}
+
+.topbar_email {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.topbar a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: all ease-in-out .4s;
+}
+
+.topbar a:hover {
+    color: rgb(228, 132, 19);
+}
+
+/* Header Start */
+
+.menu li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 400;
+    transition: all ease-in-out .4s;
+    cursor: pointer;
+}
+
+.menu a:hover {
+    color: rgb(228, 132, 19);
+}
+
+.header_icon {
+    color: #ffffff;
+    transition: all ease-in-out .4s;
+    cursor: pointer;
+}
+
+.header_icons a:hover .header_icon {
+    color: rgb(228, 132, 19);
+    /* background-color: red; */
+}
+
+/* Home Start */
+
+.home_section {
+    width: 100vw;
+    height: 700px;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+}
+
+.home_section_text h1 {
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 500;
+    /* font-size: 140px; */
+}
+
+.home_section_text img {
+    bottom: -78px;
+    right: -135px;
+}
+
+.home_section_text p {
+    max-width: 44%;
+}
+
+.home_btn a {
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 500;
+    background-color: #ad1a19;
+    color: #ffffff;
+    transition: all ease-in-out .4s;
+    cursor: pointer;
+}
+
+.home_btn a:hover {
+    color: black;
+    background-color: #ffffff;
+}
+
+/* Our Popular Categories Start */
+
+#categories_section {
+    margin-top: -4rem;
+    border-radius: 100px 100px 0px 0px;
+}
+
+.popular_categories_text {
+    background-color: transparent;
+}
+
+.popular_categories_text h1 {
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 500;
+    background-color: transparent;
+}
+
+.popular_categories_text .img_title {
+    position: absolute;
+    top: -40px;
+    right: 60px;
+    z-index: -1;
+    width: 300px;
+    height: 150px;
+}
+
+.popular_categories_slider .item {
+    /* width: 215px;*/
+    height: 250px;
+    /* margin-right: 40px; */
+    border-radius: 35px;
+    overflow: hidden;
+    transition: all ease-in-out .4s;
+}
+
+.popular_categories_slider .item img {
+    height: 290px;
+}
+
+.popular_categories_slider .item_text {
+    top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    transform: translateY(40px);
+    z-index: 1;
+    transition: all ease-in-out .4s;
+}
+
+.popular_categories_slider .item_text h3 {
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 500;
+}
+
+.slider_color {
+    transition: all ease-in-out .4s;
+}
+
+.popular_categories_slider .item:hover .item_text {
+    transform: translateY(0px);
+}
+
+.popular_categories_slider .item:hover .slider_color {
+    background: rgb(213, 64, 64);
+    background: linear-gradient(180deg, rgba(213, 64, 64, 0.10688025210084029) 26%, rgba(213, 64, 64, 0.2805497198879552) 49%, rgba(251, 12, 12, 0.6334908963585435) 100%);
+}
+
+/* Number Counter Section Start */
+
+.Number_counter_section {
+    padding: 5rem 3rem;
+}
+
+.Number_counter_section h1 {
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 500;
+    overflow: hidden;
+    line-height: 80px;
+}
+
+.Number_counter_section h1 .counter_img1 {
+    width: 128px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.Number_counter_section h1 .counter_img2 {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.Number_counter_section h1 .counter_img3 {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.counter_btn a {
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 500;
+    background-color: #ad1a19;
+    color: #ffffff;
+    transition: all ease-in-out .4s;
+    padding: 0.8rem 2rem;
+    cursor: pointer;
+}
+
+.counter_btn a:hover {
+    color: black;
+    background-color: #ffffff;
+}
+
+.conter_box h1 {
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 500;
+}
+
+/* Variety Section Start */
+
+.variety_section_text {
+    background-color: transparent;
+}
+
+.variety_section_text h1 {
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 500;
+    background-color: transparent;
+}
+
+.variety_section_text p {
+    max-width: 600px;
+    font-family: "Onest", sans-serif;
+    font-weight: 200;
+    line-height: 32px;
+}
+
+.variety_section_text .img_title {
+    position: absolute;
+    top: -40px;
+    left: 40px;
+    z-index: -1;
+    width: 300px;
+    height: 150px;
+}
+
+.variety_section_slider_tags a {
+    outline: 1px solid #ffffff;
+    border-radius: 10px;
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 500;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    transition: all ease-in-out .6s;
+}
+
+.variety_section_slider_tags a:hover {
+    background-color: #ad1a19;
+    outline: none;
+}
+
+/* .owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    transform: translateY(-80px);
+    font-size: 60px;
+    color: #124838;
+    background-color: rgba(135, 206, 235, .90);
+    border-radius: 50%;
+    border: 5px solid #124838;
+    transition: all ease-in-out .4s;
+}
+
+.owl-carousel .owl-nav button.owl-prev span {
+    padding: 0px 10px 10px;
+    border-radius: 50%;
+    color: #124838;
+}
+
+.owl-carousel .owl-nav button.owl-prev:hover {
+    background-color: skyblue;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    top: 50%;
+    right: -20px;
+    transform: translateY(-80px);
+    font-size: 60px;
+    color: #124838;
+    background-color: rgba(135, 206, 235, .90);
+    border-radius: 50%;
+    border: 5px solid #124838;
+    transition: all ease-in-out .4s;
+}
+
+.owl-carousel .owl-nav button.owl-next span {
+    padding: 0px 10px 10px;
+    border-radius: 50%;
+    color: #124838;
+}
+
+.owl-carousel .owl-nav button.owl-next:hover {
+    background-color: skyblue;
+} */
+
+.variety_item {
+    border-radius: 35px;
+    overflow: hidden;
+    /* margin: 10px; */
+    transition: all ease-in-out .4s;
+}
+
+.variety_item_text h2 {
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 500;
+}
+
+.variety_item_text p {
+    font-family: "Onest", sans-serif;
+    font-weight: 400;
+    color: #124838;
+}
+
+.variety_item_text a {
+    color: #ffffff;
+    background-color: #dd1d1d;
+    border-radius: 13px;
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 500;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    transition: all ease-in-out .6s;
+}
+
+.variety_carts {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    opacity: 0;
+    transition: all ease-in-out .4s;
+}
+
+.bg_img {
+    width: 400px;
+    top: 30px;
+    left: -35px;
+    transform: rotatey(180deg);
+    z-index: -1;
+    opacity: 0;
+    transition: all ease-in-out .4s;
+}
+
+.add_cart p {
+    font-family: "Onest", sans-serif;
+    font-weight: 400;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.add_wish p {
+    font-family: "Onest", sans-serif;
+    font-weight: 400;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.add_cart a:hover {
+    background-color: blue;
+}
+
+.variety_carts a {
+    text-decoration: none;
+    background-color: #dd1d1d;
+    border-radius: 10px;
+    transition: all ease-in-out .4s;
+}
+
+.variety_carts a:hover {
+    background-color: #ffffff;
+}
+
+.variety_carts a:hover i {
+    color: black;
+}
+
+.variety_item:hover .variety_carts,
+.variety_item:hover .bg_img {
+    opacity: 1;
+}
+
+.variety_item_text a:hover {
+    color: black;
+    background-color: #ffffff;
+}
+
+.variety_carts a:hover {
+    color: #E3A476;
+}

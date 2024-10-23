@@ -1,2 +1,0 @@
-# Sizzle
-Sizzle
