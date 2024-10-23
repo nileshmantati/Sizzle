@@ -407,6 +407,7 @@ img {
     background-color: #ffffff;
 }
 
+
 .variety_carts a:hover i {
     color: black;
 }
@@ -414,7 +415,7 @@ img {
 .variety_item:hover .variety_carts,
 .variety_item:hover .bg_img {
     opacity: 1;
-}
+}                             
 
 .variety_item_text a:hover {
     color: black;
