@@ -514,13 +514,22 @@ img {
     background-color: #ffffff;
 }
 
-.fast_food_right {
-    background-size: cover;
-}
-
 .swip_img {
     bottom: 15px;
     right: 0px;
     width: 25%;
     height: 25%;
+}
+
+.fast_food_slider .owl-item {
+    height: 150%;
+}
+
+.fast_food_slider .img_box {
+    background-color: red;
+    height: auto;
+}
+
+.fast_food_slider img {
+    background-size: contain;
 }
