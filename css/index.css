@@ -455,9 +455,11 @@ img {
 }
 
 /* Leading Fast-Food Section Start */
+.fast_food_section {
+    gap: 40px;
+}
 
 .fast_food_left_text {
-    width: 100%;
     max-width: 68%;
 }
 
@@ -514,4 +516,11 @@ img {
 
 .fast_food_right {
     background-size: cover;
+}
+
+.swip_img {
+    bottom: 15px;
+    right: 0px;
+    width: 25%;
+    height: 25%;
 }
