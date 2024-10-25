@@ -552,6 +552,9 @@ img {
 }
 
 /* Shefs Section Start */
+.master_chefs_box {
+    transition: all ease-in-out .4s;
+}
 
 .master_chefs_text {
     background-color: transparent;
@@ -588,4 +591,47 @@ img {
 .master_chefs_box_text p {
     font-family: "Onest", sans-serif;
     font-weight: 200;
+}
+
+.master_chefs_icons {
+    bottom: -50px;
+    transition: all ease-in-out .4s;
+}
+
+.master_chefs_icons li {
+    width: 32px;
+    height: 32px;
+    list-style: none;
+    outline: 1px solid #ffffff;
+    transition: all ease-in-out .4s;
+}
+
+.master_chefs_icons a {
+    color: #ffffff;
+}
+
+.chefs_icon {
+    color: #ffffff;
+    transition: all ease-in-out .4s;
+}
+
+.slider_color {
+    transition: all ease-in-out .4s;
+}
+
+.master_chefs_icons li:hover {
+    background-color: #ffffff;
+}
+
+.master_chefs_icons li:hover .chefs_icon {
+    color: black;
+}
+
+.master_chefs_box:hover .master_chefs_icons {
+    bottom: 10px;
+}
+
+.master_chefs_box:hover .slider_color {
+    background: rgb(213, 64, 64);
+    background: linear-gradient(180deg, rgba(213, 64, 64, 0.10688025210084029) 26%, rgba(213, 64, 64, 0.2805497198879552) 49%, rgba(251, 12, 12, 0.6334908963585435) 100%);
 }
