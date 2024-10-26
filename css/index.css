@@ -552,6 +552,7 @@ img {
 }
 
 /* Shefs Section Start */
+
 .master_chefs_box {
     transition: all ease-in-out .4s;
 }
@@ -634,4 +635,108 @@ img {
 .master_chefs_box:hover .slider_color {
     background: rgb(213, 64, 64);
     background: linear-gradient(180deg, rgba(213, 64, 64, 0.10688025210084029) 26%, rgba(213, 64, 64, 0.2805497198879552) 49%, rgba(251, 12, 12, 0.6334908963585435) 100%);
+}
+
+/* Featured Dishes Section Start */
+
+.featured_dishes_section {
+    gap: 40px;
+    /* max-width: 93%; */
+    margin-left: auto;
+}
+
+.featured_dishes_text {
+    background-color: transparent;
+}
+
+.featured_dishes_text h1 {
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 500;
+    background-color: transparent;
+}
+
+.featured_dishes_text .img_title {
+    position: absolute;
+    top: -40px;
+    z-index: -1;
+    width: 300px;
+    height: 150px;
+}
+
+.featured_dishes_text p {
+    font-family: "Onest", sans-serif;
+    font-weight: 200;
+    line-height: 32px;
+    z-index: 5;
+    position: relative;
+}
+
+.featured_dishes_box h3 {
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 500;
+    background-color: transparent;
+    z-index: 2;
+}
+
+.dish_name::after {
+    content: "";
+    position: absolute;
+    mask-image: url(../img/dashed.svg);
+    mask-position: center center;
+    mask-repeat: repeat-x;
+    mask-size: auto;
+    width: 100vw;
+    height: 1px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: rgb(255, 255, 255);
+    color: #ffffff;
+    margin-left: 1rem;
+    /* -webkit-animation: pricing-borer 40s linear infinite; */
+}
+
+.featured_dishes_box p {
+    /* max-width: 600px; */
+    font-family: "Onest", sans-serif;
+    font-weight: 200;
+    line-height: 32px;
+    z-index: 2;
+    position: relative;
+}
+
+.slider_hori_color {
+    transition: all ease-in-out .4s;
+    /* z-index: -1; */
+}
+
+.featured_dishes_box:hover .slider_hori_color {
+    background: rgb(213, 64, 64);
+    background: linear-gradient(270deg, rgba(213, 64, 64, 0.10688025210084029) 26%, rgba(213, 64, 64, 0.2805497198879552) 49%, rgba(251, 12, 12, 0.6334908963585435) 100%);
+}
+
+.featured_dishes_right a {
+    width: 100%;
+    height: auto;
+    background-image: url(../img/dishes_1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.featured_dishes_right .item_text {
+    bottom: 12px;
+}
+
+.featured_dishes_right .item_text h3 {
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 500;
+    background-color: transparent;
+    z-index: 2;
+}
+
+.featured_dishes_right .item_text h6 {
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 600;
+    background-color: transparent;
 }
