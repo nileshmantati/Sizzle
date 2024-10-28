@@ -716,16 +716,21 @@ img {
 }
 
 .featured_dishes_right a {
-    width: 100%;
-    height: auto;
-    background-image: url(../img/dishes_1.webp);
+    /* width: 100%;
+    height: auto; */
+    /* background-image: url(../img/dishes_1.webp);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center; */
+}
+
+.featured_dishes_right a img {
+    width: 180%;
 }
 
 .featured_dishes_right .item_text {
-    bottom: 12px;
+    left: 0;
+    bottom: 15px;
 }
 
 .featured_dishes_right .item_text h3 {
@@ -739,4 +744,97 @@ img {
     font-family: "Londrina Solid", sans-serif;
     font-weight: 600;
     background-color: transparent;
+}
+
+/* Customers Section Start */
+
+.customer_box {
+    transition: all ease-in-out .4s;
+}
+
+.customer_text {
+    background-color: transparent;
+}
+
+.customer_text h1 {
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 500;
+    background-color: transparent;
+}
+
+.customer_text .img_title {
+    position: absolute;
+    top: -40px;
+    right: 50px;
+    z-index: -1;
+    width: 300px;
+    height: 150px;
+}
+
+.customer_text p {
+    max-width: 600px;
+    font-family: "Onest", sans-serif;
+    font-weight: 200;
+    line-height: 32px;
+    z-index: 5;
+    position: relative;
+}
+
+.customer_box_text h3 {
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 500;
+}
+
+.customer_box_text p {
+    font-family: "Onest", sans-serif;
+    font-weight: 200;
+}
+
+/* skjcnacnkjasnckjansscnaskcjnkn */
+
+.customer_section_slider .item {
+    border: 1px solid #ffffff;
+    position: relative;
+}
+
+.customer_section_slider .name_img {
+    width: 100%;
+    height: auto;
+}
+
+.customer_section_slider .item_img_box {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.customer_section_slider .item_name {
+    justify-content: center;
+    /* background-color: red; */
+}
+
+.customer_section_slider .item_name h1 {
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 500;
+}
+
+.customer_section_slider .item_name p {
+    font-family: "Onest", sans-serif;
+    font-weight: 200;
+}
+
+.customer_section_slider .item_text {
+    width: 100%;
+    height: auto;
+}
+
+.customer_section_slider .rating_icon {
+    color: #D4A762;
+}
+
+.customer_section_slider .item_text p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+    line-height: 26px;
 }
