@@ -715,14 +715,14 @@ img {
     background: linear-gradient(270deg, rgba(213, 64, 64, 0.10688025210084029) 26%, rgba(213, 64, 64, 0.2805497198879552) 49%, rgba(251, 12, 12, 0.6334908963585435) 100%);
 }
 
-.featured_dishes_right a {
-    /* width: 100%;
-    height: auto; */
-    /* background-image: url(../img/dishes_1.webp);
+/* .featured_dishes_right a {
+    width: 100%;
+    height: auto; 
+     background-image: url(../img/dishes_1.webp);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; */
-}
+    background-position: center;
+} */
 
 .featured_dishes_right a img {
     width: 180%;
