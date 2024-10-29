@@ -1161,6 +1161,52 @@
         </div>
     </section>
     <!-- Reservation Section End -->
+
+    <!-- Instgram Gallery Section Start -->
+    <section class="bg-color-light-gray">
+        <div class="container_fluid">
+            <div class="instgram_gallery_section w-100 h-auto p-5 my-5 d-flex justify-content-center">
+                <div class="instgram_gallery_slider owl-carousel owl-theme">
+                    <div class="item position-relative">
+                        <img src="img/slider_burger.jpg" alt="Slider Not Found" class="">
+                        <div
+                            class="item_text position-absolute top-0 left-0 w-100 h-100 d-flex justify-content-center align-items-center">
+                            <i class="fa-brands fa-instagram fa-2x text-white inst_icon"></i>
+                        </div>
+                    </div>
+                    <div class="item position-relative">
+                        <img src="img/slider_burger.jpg" alt="Slider Not Found" class="">
+                        <div
+                            class="item_text position-absolute top-0 left-0 w-100 h-100 d-flex justify-content-center align-items-center">
+                            <i class="fa-brands fa-instagram fa-2x text-white inst_icon"></i>
+                        </div>
+                    </div>
+                    <div class="item position-relative">
+                        <img src="img/slider_burger.jpg" alt="Slider Not Found" class="">
+                        <div
+                            class="item_text position-absolute top-0 left-0 w-100 h-100 d-flex justify-content-center align-items-center">
+                            <i class="fa-brands fa-instagram fa-2x text-white inst_icon"></i>
+                        </div>
+                    </div>
+                    <div class="item position-relative">
+                        <img src="img/slider_burger.jpg" alt="Slider Not Found" class="">
+                        <div
+                            class="item_text position-absolute top-0 left-0 w-100 h-100 d-flex justify-content-center align-items-center">
+                            <i class="fa-brands fa-instagram fa-2x text-white inst_icon"></i>
+                        </div>
+                    </div>
+                    <div class="item position-relative">
+                        <img src="img/slider_burger.jpg" alt="Slider Not Found" class="">
+                        <div
+                            class="item_text position-absolute top-0 left-0 w-100 h-100 d-flex justify-content-center align-items-center">
+                            <i class="fa-brands fa-instagram fa-2x text-white inst_icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Instgram Gallery Section End -->
     <!-- </div> -->
 </body>
 <script src="js/jquery.js"></script>
@@ -1273,6 +1319,33 @@
             },
             1200: {
                 items: 3
+            }
+        }
+    })
+
+
+    $('.instgram_gallery_slider').owlCarousel({
+        loop: true,
+        margin: 20,
+        // center: true,
+        loop: false,
+        nav: false,
+        dots: false,
+        responsive: {
+            0: {
+                items: 1
+            },
+            400: {
+                items: 2
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 3
+            },
+            1443: {
+                items: 5
             }
         }
     })
