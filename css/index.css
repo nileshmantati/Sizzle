@@ -895,3 +895,31 @@ img {
     color: black;
     background-color: #ffffff;
 }
+
+/* Instgram Gallery Section Start */
+
+.instgram_gallery_slider .item {
+    height: 250px;
+    border-radius: 35px;
+    overflow: hidden;
+    transition: all ease-in-out .4s;
+}
+
+.instgram_gallery_slider .item_text {
+    background: rgb(213, 64, 64);
+    background: linear-gradient(180deg, rgba(213, 64, 64, 0.10688025210084029) 26%, rgba(213, 64, 64, 0.2805497198879552) 49%, rgba(251, 12, 12, 0.6334908963585435) 100%);
+    transition: all ease-in-out .4s;
+    opacity: 0;
+}
+
+.inst_icon {
+    transition: all ease-in-out .4s;
+}
+
+.instgram_gallery_slider .item:hover .inst_icon {
+    font-size: 3em;
+}
+
+.instgram_gallery_slider .item:hover .item_text {
+    opacity: 1;
+}
