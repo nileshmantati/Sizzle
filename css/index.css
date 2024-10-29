@@ -947,7 +947,7 @@ img {
     width: 22px;
     height: 34px;
     top: 10px;
-    right: 210px;
+    right: -30px;
 }
 
 .newsletter_left p {
@@ -982,4 +982,67 @@ img {
 .newsletter_field .subscribe_btn:hover {
     color: black;
     background-color: #ffffff
+}
+
+/* Footer Section Start */
+
+.footer_section {
+    background-color: blueviolet;
+}
+
+.footer_first {
+    background-color: aqua;
+}
+
+.footer_details_content {
+    background-color: red;
+}
+
+.logo_box img {
+    width: 150%;
+}
+
+.footer_ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.footer_ul a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Onest", sans-serif;
+    font-weight: 400;
+}
+
+.footer_ul address {
+    max-width: 290px;
+    color: #ffffff;
+}
+
+.footer_first_icon {
+    color: #dd1d1d;
+}
+
+.footer_item {
+    background-color: blue;
+    width: 300px;
+}
+
+.footer_item h3 {
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.footer_item .footer_ul li {
+    list-style: none;
+    display: flex;
+}
+
+.footer_item .footer_ul a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Onest", sans-serif;
+    font-weight: 400;
 }
