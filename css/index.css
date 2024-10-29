@@ -923,3 +923,63 @@ img {
 .instgram_gallery_slider .item:hover .item_text {
     opacity: 1;
 }
+
+/* Newsletter Section Start */
+
+#newsletter_section {
+    background-image: url(../img/newsletter.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(221, 29, 29, .8);
+}
+
+.newsletter {
+    gap: 2.6rem;
+}
+
+.newsletter_left h2 {
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 500;
+}
+
+.newsletter_left h2 img {
+    width: 22px;
+    height: 34px;
+    top: 10px;
+    right: 210px;
+}
+
+.newsletter_left p {
+    font-family: "Onest", sans-serif;
+    font-weight: 200;
+    line-height: 32px;
+}
+
+.newsletter_field {
+    border: 1px solid #ffffff;
+}
+
+.newsletter_field input {
+    border: none;
+    background-color: transparent;
+    min-width: 400px;
+}
+
+.newsletter_field input:focus {
+    outline: none;
+}
+
+.newsletter_field .subscribe_btn {
+    border: none;
+    color: #ffffff;
+    background-color: transparent;
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 500;
+    transition: all ease-in-out .4s;
+}
+
+.newsletter_field .subscribe_btn:hover {
+    color: black;
+    background-color: #ffffff
+}
