@@ -56,6 +56,7 @@ img {
 }
 
 /* Header Start */
+
 header {
     z-index: 4;
 }
@@ -1052,13 +1053,13 @@ header {
     list-style: none;
     display: flex;
     align-items: center;
-    border-left: 2px solid #ffffff;
-    color: #9c9b9b;
+    justify-content: center;
+    /* border-left: 2px solid #949494; */
 }
 
 .footer_second_content ul a {
     text-decoration: none;
-    color: #ffffff;
+    color: #9c9b9b;
     font-family: "Onest", sans-serif;
     font-weight: 400;
     transition: all ease-in-out .4s;
