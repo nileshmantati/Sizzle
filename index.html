@@ -585,13 +585,13 @@
     <!-- Leading Fast-Food Section Start -->
     <section class="bg-color-dark-gray">
         <div class="container_fluid">
-            <div class="row col-12">
+            <div class="row">
                 <div
-                    class="fast_food_section w-100 h-auto py-5 my-5 d-flex justify-content-center flex-wrap flex-lg-nowrap position-relative">
+                    class="fast_food_section col-12 h-auto py-5 px-0 my-5 d-flex justify-content-center flex-wrap flex-lg-nowrap position-relative gap-5">
                     <img src="img/menu_tag.avif" alt="" class="menu_tag position-absolute z-2 d-none d-lg-block">
                     <div
-                        class="fast_food_left col-12 col-lg-6 h-auto bg-color-light-gray d-flex justify-content-center rounded-end-5 rounded-lg-end-0 position-relative">
-                        <div class="fast_food_left_text mw-md-0 mt-2">
+                        class="fast_food_left col-12 col-lg py-5 h-auto bg-color-light-gray d-flex justify-content-center rounded-end-5 rounded-lg-end-0 position-relative">
+                        <div class="fast_food_left_text w-75 w-sm-50 w-lg-75 mt-2">
                             <h2
                                 class="display-5 mb-5 text-white text-wrap position-relative z-2 text-center text-lg-start">
                                 We're The
@@ -610,8 +610,10 @@
                                 tellus
                                 integer feugiat scelerisque
                                 varius morbi enim nunc faucibus.</p>
-                            <div class="fast_food_banners d-flex flex-nowrap flex-lg-wrap gap-3 mb-3 col-12">
-                                <div class="fast_food_banner col-6 d-flex justify-content-between align-items-center">
+                            <div
+                                class="fast_food_banners d-flex flex-wrap flex-sm-nowrap flex-lg-wrap gap-3 mb-3 col-12">
+                                <div
+                                    class="fast_food_banner col-12 col-sm-6 d-flex justify-content-between align-items-center">
                                     <div class="fast_food_banner_img_box p-3 me-3 rounded-3">
                                         <img src="img/fast-food_img1.jpg" alt="">
                                     </div>
@@ -623,7 +625,8 @@
                                         nis.
                                     </p>
                                 </div>
-                                <div class="fast_food_banner col-6 d-flex justify-content-between align-items-center">
+                                <div
+                                    class="fast_food_banner col-12 col-sm-6 d-flex justify-content-between align-items-center">
                                     <div class="fast_food_banner_img_box p-3 me-3 rounded-3">
                                         <img src="img/fast-food_img2.jpg" alt="">
                                     </div>
@@ -642,7 +645,7 @@
                         </div>
                         <img src="img/swip.svg" alt="" class="swip_img position-absolute">
                     </div>
-                    <div class="fast_food_right d-flex col-12 col-lg-6 h-auto rounded-lg-0 rounded-5 overflow-hidden">
+                    <div class="fast_food_right d-flex col-12 col-lg h-auto rounded-5 rounded-md-0 overflow-hidden">
                         <div class="fast_food_slider owl-carousel owl-theme">
                             <div class="item_box item">
                                 <img src="img/leading.jpg" alt=" Slider Not Found">
@@ -1121,9 +1124,9 @@
     <!-- Reservation Section Start -->
     <section class="bg-color-dark-gray">
         <div class="container_fluid">
-            <div class="row col-12">
+            <div class="row">
                 <div
-                    class="reservation_section w-100 h-auto py-5 mt-5 d-flex justify-content-center flex-wrap flex-lg-nowrap position-relative">
+                    class="reservation_section w-100 h-auto mx-2 py-5 mt-5 d-flex justify-content-center flex-wrap flex-lg-nowrap position-relative">
                     <div
                         class="reservation_left col-12 col-lg-7 h-auto bg-color-light-gray d-flex justify-content-center align-items-center rounded-end-5 rounded-lg-end-0 position-relative">
                         <div class="reservation_left_text mw-md-0 mt-2">
@@ -1573,6 +1576,7 @@
 
     $('.fast_food_slider').owlCarousel({
         loop: true,
+        margin: 20,
         // center: true,
         loop: false,
         nav: false,
