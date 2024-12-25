@@ -96,7 +96,6 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    z-index: -1;
 }
 
 .home_section {
@@ -136,8 +135,10 @@ header {
 /* Our Popular Categories Start */
 
 #categories_section {
-    margin-top: -4rem;
+    margin-top: -6rem;
     border-radius: 100px 100px 0px 0px;
+    position: relative;
+    z-index: 10;
 }
 
 .popular_categories_text {
@@ -436,14 +437,6 @@ header {
 }
 
 /* Leading Fast-Food Section Start */
-
-.fast_food_section {
-    gap: 40px;
-}
-
-.fast_food_left_text {
-    max-width: 68%;
-}
 
 .fast_food_left_text h2 {
     font-family: "Londrina Solid", sans-serif;
